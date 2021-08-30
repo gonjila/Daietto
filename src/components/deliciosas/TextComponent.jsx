@@ -90,11 +90,13 @@ const Text = styled.div`
             color: #fff;
             border-radius: 0.625rem;
             background: #23233c;
+            cursor: pointer;
         }
         img {
             width: 1.9619rem;
             height: 2.3919rem;
             background: transparent;
+            cursor: pointer;
 
             &:first-of-type {
                 margin: 0 2.8125rem 0 5.625rem;

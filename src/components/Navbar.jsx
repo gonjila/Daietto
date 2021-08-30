@@ -35,6 +35,7 @@ const Container = styled.div`
     #logo {
         display: flex;
         align-items: center;
+        cursor: pointer;
 
         img {
             width: 69.84px;
@@ -56,6 +57,7 @@ const Container = styled.div`
             font-weight: 500;
             font-size: 1.5625rem;
             color: #7f8da0;
+            cursor: pointer;
 
             &:not(:last-child) {
                 margin-right: 4.0625rem;
@@ -71,6 +73,7 @@ const Container = styled.div`
             font-weight: bold;
             font-size: 25px;
             color: #23233c;
+            cursor: pointer;
 
             &:last-child {
                 color: #6bc37c;

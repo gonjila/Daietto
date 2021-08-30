@@ -16,6 +16,7 @@ export default Deliciosas;
 
 const Container = styled.div`
     height: auto;
+    margin-bottom: 30px;
     position: relative;
 
     display: flex;
