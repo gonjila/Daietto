@@ -5,20 +5,20 @@ function Salad({ id, img, text, calories, grases }) {
     return (
         <Container id={id}>
             <img alt="salad" src={img} />
-            <div id="saladInformationWrapper">
-                <p id="saladName">{text}</p>
+            <div className="saladInformationWrapper">
+                <p className="saladName">{text}</p>
                 <div>
-                    <div id="calories">
+                    <div className="saladCalories">
                         <p className="caloriesAndGrasesNumber">{calories}</p>
                         <p className="caloriesAndGrasesText">calories</p>
                     </div>
-                    <div id="grases">
+                    <div className="saladGrases">
                         <p className="caloriesAndGrasesNumber">{grases}</p>
                         <p className="caloriesAndGrasesText">grases</p>
                     </div>
                 </div>
             </div>
-            <div id="SaladArrowWrapper">
+            <div className="SaladArrowWrapper">
                 <HiArrowRight style={{ width: "27px", height: "27px", color: "white" }} />
             </div>
         </Container>
@@ -43,11 +43,11 @@ const Container = styled.div`
         bottom: 140px;
         left: -83.5px;
     }
-    #saladInformationWrapper {
+    .saladInformationWrapper {
         position: relative;
         bottom: 150px;
 
-        #saladName {
+        .saladName {
             font-family: "Google Sans";
             font-weight: bold;
             font-size: 35px;
@@ -64,7 +64,7 @@ const Container = styled.div`
 
             display: flex;
 
-            #calories {
+            .saladCalories {
                 flex-direction: column;
                 /* align-items: center; */
 
@@ -72,7 +72,7 @@ const Container = styled.div`
                     color: #ee6a6e;
                 }
             }
-            #grases {
+            .saladGrases {
                 flex-direction: column;
                 align-items: center;
             }
@@ -91,7 +91,7 @@ const Container = styled.div`
             }
         }
     }
-    #SaladArrowWrapper {
+    .SaladArrowWrapper {
         width: 80px;
         height: 80px;
         border-radius: 50%;

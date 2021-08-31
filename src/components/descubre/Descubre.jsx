@@ -20,7 +20,17 @@ function Descubre() {
                     grases="2,8g"
                 />
             </div>
-            <Text></Text>
+            <Text>
+                <hr />
+                <p id="title">
+                    <span>Descubre </span>
+                    <p>que tan fácil crear alimentos saludables</p>
+                </p>
+                <p id="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas accumsan odio, cursus
+                    laoreet mauris porttitor non. Aliquam eu neque nibh. Aenean non pellentesque justo.
+                </p>
+            </Text>
         </Container>
     );
 }
@@ -49,4 +59,21 @@ const Container = styled.div`
 
 const Text = styled.div`
     width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    hr {
+        width: 3.875rem;
+        height: 0rem;
+        border: 0.1875rem solid #23233c;
+        border-radius: 0.3125rem;
+        margin-bottom: 1.5625rem;
+        background: transparent;
+    }
+    div {
+    }
+    p {
+    }
 `;

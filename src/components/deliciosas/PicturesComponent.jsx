@@ -9,13 +9,13 @@ const PicturesComponent = () => {
             </div>
 
             <div id="information">
-                <div id="title">Nutritional information</div>
+                <div id="nutritionalTitle">Nutritional information</div>
                 <div id="details">
                     <div id="calorias">
                         <div className="detailNumber">243</div>
                         <div className="detailText">calorias</div>
                     </div>
-                    <div id="grases">
+                    <div id="grasesWrapper">
                         <div className="detailNumber">2.8g</div>
                         <div className="detailText">grases</div>
                     </div>
@@ -36,7 +36,7 @@ const PicturesComponent = () => {
 
             <div id="weekResult">
                 <div id="resultTextWrapper">
-                    <div id="title">Results of the week</div>
+                    <div id="resultsTitle">Results of the week</div>
 
                     <div id="informationWrapper">
                         <div>
@@ -55,12 +55,12 @@ const PicturesComponent = () => {
                         <div className="dot"></div>
                         <div className="dot"></div>
                     </div>
-                    <div id="graph">
+                    <div id="picturesComponentGraph">
                         <div id="graphText">
                             520 <br /> Kcal
                         </div>
                     </div>
-                    <div id="bottomWorlds">
+                    <div id="bottomWorldsInPicturesComponent">
                         Never give up, <span>know more</span>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ const Pictures = styled.div`
         left: 250px;
         z-index: 10;
 
-        #title {
+        #nutritionalTitle {
             font-weight: 500;
             font-size: 13px;
             line-height: 24px;
@@ -185,7 +185,7 @@ const Pictures = styled.div`
             text-align: center;
             margin: 0 15px 0 40px;
 
-            #title {
+            #resultsTitle {
                 font-weight: bold;
                 font-size: 20px;
                 line-height: 26px;
@@ -230,7 +230,7 @@ const Pictures = styled.div`
                 }
             }
 
-            #graph {
+            #picturesComponentGraph {
                 width: 81.98px;
                 height: 81.98px;
                 border-radius: 50%;
@@ -261,7 +261,7 @@ const Pictures = styled.div`
                 }
             }
 
-            #bottomWorlds {
+            #bottomWorldsInPicturesComponent {
                 font-weight: normal;
                 font-size: 10px;
                 line-height: 19px;
