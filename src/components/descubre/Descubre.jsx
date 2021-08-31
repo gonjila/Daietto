@@ -1,32 +1,32 @@
-import styled from "styled-components";
-import Salad from "./Salad";
+import styled from 'styled-components';
+import Salad from './Salad.jsx';
 
 function Descubre() {
     return (
         <Container>
-            <div id="salads">
+            <div id='salads'>
                 <Salad
-                    id="firstSalad"
-                    img="images/salad1.png"
-                    text="Ensalada mixta"
-                    calories="243"
-                    grases="2,8g"
+                    id='firstSalad'
+                    img='images/salad1.png'
+                    text='Ensalada mixta'
+                    calories='243'
+                    grases='2,8g'
                 />
                 <Salad
-                    id="secondSalad"
-                    img="images/salad1.png"
-                    text="Ensalada con pollo"
-                    calories="543"
-                    grases="2,8g"
+                    id='secondSalad'
+                    img='images/salad1.png'
+                    text='Ensalada con pollo'
+                    calories='543'
+                    grases='2,8g'
                 />
             </div>
             <Text>
                 <hr />
-                <p id="title">
+                <p id='title'>
                     <span>Descubre </span>
                     <p>que tan fácil crear alimentos saludables</p>
                 </p>
-                <p id="description">
+                <p id='description'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas accumsan odio, cursus
                     laoreet mauris porttitor non. Aliquam eu neque nibh. Aenean non pellentesque justo.
                 </p>

@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import Deliciosas from "./components/deliciosas/Deliciosas";
-import Descubre from "./components/descubre/Descubre";
+import styled from 'styled-components';
+import Deliciosas from './components/deliciosas/Deliciosas.jsx';
+import Descubre from './components/descubre/Descubre.jsx';
 
-import Navbar from "./components/Navbar";
+import Navbar from './components/Navbar.jsx';
 
 function App() {
     return (

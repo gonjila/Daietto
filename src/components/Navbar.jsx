@@ -1,26 +1,24 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-const Navbar = () => {
-    return (
-        <Container>
-            <div id="logo">
-                <img alt="logo" src="images/ProjectLogo.svg" />
-                <p>Daietto</p>
-            </div>
+const Navbar = () => (
+    <Container>
+        <div id='logo'>
+            <img alt='logo' src='images/ProjectLogo.svg' />
+            <p>Daietto</p>
+        </div>
 
-            <div id="menu">
-                <p>Nosotros</p>
-                <p>Menu</p>
-                <p>Contacto</p>
-            </div>
+        <div id='menu'>
+            <p>Nosotros</p>
+            <p>Menu</p>
+            <p>Contacto</p>
+        </div>
 
-            <div id="autorisation">
-                <p>Login</p>
-                <p>Register</p>
-            </div>
-        </Container>
-    );
-};
+        <div id='autorisation'>
+            <p>Login</p>
+            <p>Register</p>
+        </div>
+    </Container>
+);
 
 export default Navbar;
 

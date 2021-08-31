@@ -1,25 +1,26 @@
-import styled from "styled-components";
-import { HiArrowRight } from "react-icons/hi";
+import styled from 'styled-components';
+// eslint-disable-next-line import/extensions
+import { HiArrowRight } from 'react-icons/hi';
 
 function Salad({ id, img, text, calories, grases }) {
     return (
         <Container id={id}>
-            <img alt="salad" src={img} />
-            <div className="saladInformationWrapper">
-                <p className="saladName">{text}</p>
+            <img alt='salad' src={img} />
+            <div className='saladInformationWrapper'>
+                <p className='saladName'>{text}</p>
                 <div>
-                    <div className="saladCalories">
-                        <p className="caloriesAndGrasesNumber">{calories}</p>
-                        <p className="caloriesAndGrasesText">calories</p>
+                    <div className='saladCalories'>
+                        <p className='caloriesAndGrasesNumber'>{calories}</p>
+                        <p className='caloriesAndGrasesText'>calories</p>
                     </div>
-                    <div className="saladGrases">
-                        <p className="caloriesAndGrasesNumber">{grases}</p>
-                        <p className="caloriesAndGrasesText">grases</p>
+                    <div className='saladGrases'>
+                        <p className='caloriesAndGrasesNumber'>{grases}</p>
+                        <p className='caloriesAndGrasesText'>grases</p>
                     </div>
                 </div>
             </div>
-            <div className="SaladArrowWrapper">
-                <HiArrowRight style={{ width: "27px", height: "27px", color: "white" }} />
+            <div className='SaladArrowWrapper'>
+                <HiArrowRight style={{ width: '27px', height: '27px', color: 'white' }} />
             </div>
         </Container>
     );
@@ -48,7 +49,7 @@ const Container = styled.div`
         bottom: 150px;
 
         .saladName {
-            font-family: "Google Sans";
+            font-family: 'Google Sans';
             font-weight: bold;
             font-size: 35px;
             line-height: 38px;

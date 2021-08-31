@@ -1,16 +1,14 @@
-import styled from "styled-components";
-import PicturesComponent from "./PicturesComponent";
-import TextComponent from "./TextComponent";
+import styled from 'styled-components';
+import PicturesComponent from './PicturesComponent.jsx';
+import TextComponent from './TextComponent.jsx';
 
-const Deliciosas = () => {
-    return (
-        <Container>
-            <TextComponent />
-            <PicturesComponent />
-            <div id="rectangle"></div>
-        </Container>
-    );
-};
+const Deliciosas = () => (
+    <Container>
+        <TextComponent />
+        <PicturesComponent />
+        <div id='rectangle' />
+    </Container>
+);
 
 export default Deliciosas;
 

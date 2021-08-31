@@ -1,40 +1,38 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-const TextComponent = () => {
-    return (
-        <Text>
-            <hr />
-            <p id="first">La app de dieta, perfecta para ti</p>
-            <p id="second">
-                <span>Deliciosas</span> <br />
-                recetas de comida saludable
-            </p>
-            <p id="third">
-                Encuentra las mejores recetas para llevar tu dieta a otro nivel, sin necesidad de afectar su salud
-            </p>
+const TextComponent = () => (
+    <Text>
+        <hr />
+        <p id='first'>La app de dieta, perfecta para ti</p>
+        <p id='second'>
+            <span>Deliciosas</span> <br />
+            recetas de comida saludable
+        </p>
+        <p id='third'>
+            Encuentra las mejores recetas para llevar tu dieta a otro nivel, sin necesidad de afectar su salud
+        </p>
 
-            <div id="firstDiv">
-                <button>Descargar app</button>
-                <img alt="Apple Logo" src="images/apple-logo.svg" />
-                <img alt="Android Logo" src="images/android-logo.svg" />
-            </div>
+        <div id='firstDiv'>
+            <button>Descargar app</button>
+            <img alt='Apple Logo' src='images/apple-logo.svg' />
+            <img alt='Android Logo' src='images/android-logo.svg' />
+        </div>
 
-            <div id="secondDiv">
-                <a href="http://facebook.com/" target="_blank" rel="noreferrer">
-                    Facebook
-                </a>
-                <p className="slash">/</p>
-                <a href="http://instagram.com/" target="_blank" rel="noreferrer">
-                    <span>Instagram</span>
-                </a>
-                <p className="slash">/</p>
-                <a href="http://twitter.com/" target="_blank" rel="noreferrer">
-                    Twitter
-                </a>
-            </div>
-        </Text>
-    );
-};
+        <div id='secondDiv'>
+            <a href='http://facebook.com/' target='_blank' rel='noreferrer'>
+                Facebook
+            </a>
+            <p className='slash'>/</p>
+            <a href='http://instagram.com/' target='_blank' rel='noreferrer'>
+                <span>Instagram</span>
+            </a>
+            <p className='slash'>/</p>
+            <a href='http://twitter.com/' target='_blank' rel='noreferrer'>
+                Twitter
+            </a>
+        </div>
+    </Text>
+);
 
 export default TextComponent;
 
@@ -83,7 +81,7 @@ const Text = styled.div`
         button {
             width: 17.25rem;
             height: 4.1875rem;
-            font-family: "Google Sans";
+            font-family: 'Google Sans';
             font-weight: bold;
             font-size: 1.25rem;
             text-align: center;
