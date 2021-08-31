@@ -25,9 +25,11 @@ const Navbar = () => {
 export default Navbar;
 
 const Container = styled.div`
-    height: 4.0981rem;
+    width: 99rem;
+    height: 4.2231rem;
+    background: transparent;
     margin: 3.75rem 0 10.3125rem;
-    /* background: red; */
+
     display: flex;
     justify-content: space-between;
     align-items: center;
