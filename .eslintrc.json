@@ -17,7 +17,7 @@
     },
     "plugins": ["react", "prettier", "jsx-a11y"],
     "rules": {
-        "prettier/prettier": "warn",
+        "prettier/prettier": ["warn", { "singleQuote": true, "tabWidth": "4" }],
         "no-unused-vars": "warn",
         "no-console": "off",
         "no-undef": 0,
