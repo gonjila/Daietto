@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Conoce from './components/Conoce/Conoce.jsx';
 import Deliciosas from './components/deliciosas/Deliciosas.jsx';
 import Descubre from './components/descubre/Descubre.jsx';
 
@@ -10,6 +11,7 @@ function App() {
             <Navbar />
             <Deliciosas />
             <Descubre />
+            <Conoce />
         </Container>
     );
 }
