@@ -25,6 +25,20 @@ function Conoceimages() {
                     </div>
                 </div>
             </div>
+            <div id='circleImageWrapper'>
+                <div>
+                    <img alt='არაჟანი' src='images/conoce-circle-image1.png' />
+                </div>
+                <div>
+                    <img alt='კივი' src='images/conoce-circle-image2.png' />
+                </div>
+                <div>
+                    <img alt='მოცვი' src='images/conoce-circle-image3.png' />
+                </div>
+                <div>
+                    <img alt='ბალი' src='images/conoce-circle-image4.png' />
+                </div>
+            </div>
         </Container>
     );
 }
@@ -46,6 +60,7 @@ const Container = styled.div`
         height: 628px;
         background: url(images/detalles.png) center center;
         filter: drop-shadow(0px 3px 99px rgba(42, 90, 123, 0.27));
+        transform: translateX(45px);
     }
 
     #nutritionalInformation2 {
@@ -55,6 +70,7 @@ const Container = styled.div`
         background: #fff;
         text-align: center;
         box-shadow: 0px 10px 20px rgba(25, 22, 109, 0.07);
+        transform: translateY(-50px);
         position: absolute;
         left: 0;
 
@@ -95,6 +111,20 @@ const Container = styled.div`
                     color: #9e9e9e;
                 }
             }
+        }
+    }
+
+    #circleImageWrapper {
+        position: absolute;
+        bottom: 0;
+
+        display: flex;
+
+        div {
+            width: 120px;
+            height: 120px;
+            /* background: url(...); */
+            filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.04));
         }
     }
 `;
