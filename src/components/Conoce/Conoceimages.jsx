@@ -115,16 +115,21 @@ const Container = styled.div`
     }
 
     #circleImageWrapper {
+        width: 100%;
         position: absolute;
-        bottom: 0;
+        bottom: -30px;
 
         display: flex;
+        justify-content: space-around;
 
         div {
             width: 120px;
             height: 120px;
-            /* background: url(...); */
             filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.04));
+
+            img {
+                width: 90%;
+            }
         }
     }
 `;
