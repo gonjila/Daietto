@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+
+import Navbar from './components/Navbar.jsx';
 import Conoce from './components/Conoce/Conoce.jsx';
 import Deliciosas from './components/deliciosas/Deliciosas.jsx';
 import Descubre from './components/descubre/Descubre.jsx';
-
-import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Deliciosas />
             <Descubre />
             <Conoce />
+            <Footer />
         </Container>
     );
 }
@@ -24,6 +26,7 @@ const Container = styled.div`
     padding: 0 10.625rem;
     background: #f2f6ff;
     overflow: hidden;
+    position: relative;
 
     display: flex;
     flex-direction: column;
