@@ -67,7 +67,6 @@ const Container = styled.div`
 
             .saladCalories {
                 flex-direction: column;
-                /* align-items: center; */
 
                 .caloriesAndGrasesNumber {
                     color: #ee6a6e;

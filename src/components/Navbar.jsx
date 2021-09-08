@@ -23,10 +23,10 @@ const Navbar = () => (
 export default Navbar;
 
 const Container = styled.div`
-    width: 99rem;
-    height: 4.2231rem;
+    width: 1584px;
+    height: 67.5696px;
     background: transparent;
-    margin: 3.75rem 0 10.3125rem;
+    margin: 60px 0 165px;
 
     display: flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@ const Container = styled.div`
             font-weight: bold;
             font-size: 47px;
             color: #23233c;
-            margin-left: 1.375rem;
+            margin-left: 22px;
         }
     }
 
@@ -60,7 +60,7 @@ const Container = styled.div`
             cursor: pointer;
 
             &:not(:last-child) {
-                margin-right: 4.0625rem;
+                margin-right: 65px;
             }
         }
     }
@@ -80,7 +80,7 @@ const Container = styled.div`
             }
 
             &:not(:last-child) {
-                margin-right: 3.125rem;
+                margin-right: 50px;
             }
         }
     }

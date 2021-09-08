@@ -91,15 +91,13 @@ const Pictures = styled.div`
             background: url(images/loginScreen.png) no-repeat center center;
             box-shadow: 0px 0px 99px rgba(42, 90, 123, 0.23);
             position: relative;
-            /* top: 0px;
-            left: 0px; */
             z-index: 5;
         }
 
         &::after {
             content: '';
-            width: 25.5625rem;
-            height: 25.5625rem;
+            width: 409px;
+            height: 409px;
             border-radius: 50%;
             background: #d0f0d6;
             position: absolute;

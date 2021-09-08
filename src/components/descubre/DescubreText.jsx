@@ -27,11 +27,11 @@ const Text = styled.div`
     justify-content: center;
 
     hr {
-        width: 3.875rem;
-        height: 0rem;
-        border: 0.1875rem solid #23233c;
-        border-radius: 0.3125rem;
-        margin-bottom: 1.5625rem;
+        width: 62px;
+        height: 0px;
+        border: 3px solid #23233c;
+        border-radius: 5px;
+        margin-bottom: 25px;
         background: transparent;
     }
     #descubreTitle {

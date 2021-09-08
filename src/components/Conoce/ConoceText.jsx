@@ -25,17 +25,16 @@ const Text = styled.div`
     justify-content: center;
 
     hr {
-        width: 3.875rem;
-        height: 0rem;
-        border: 0.1875rem solid #23233c;
-        border-radius: 0.3125rem;
-        margin-bottom: 1.5625rem;
+        width: 62px;
+        border: 3px solid #23233c;
+        border-radius: 5px;
+        margin-bottom: 25px;
         background: transparent;
     }
     #conoceTitle {
         font-weight: bold;
-        font-size: 3.125rem;
-        line-height: 3.9375rem;
+        font-size: 50px;
+        line-height: 63px;
         text-align: left;
         color: #23233c;
 
@@ -45,10 +44,10 @@ const Text = styled.div`
     }
     #conoceDescription {
         font-weight: normal;
-        font-size: 1.5625rem;
-        line-height: 1.75rem;
+        font-size: 25px;
+        line-height: 28px;
         text-align: left;
         color: #7f8da0;
-        margin-top: 1.875rem;
+        margin-top: 30px;
     }
 `;

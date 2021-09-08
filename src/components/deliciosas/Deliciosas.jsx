@@ -6,7 +6,7 @@ const Deliciosas = () => (
     <Container>
         <TextComponent />
         <PicturesComponent />
-        <div id='rectangle' />
+        <div id='deliciosasRectangle' />
     </Container>
 );
 
@@ -20,7 +20,7 @@ const Container = styled.div`
     display: flex;
     justify-content: space-between;
 
-    #rectangle {
+    #deliciosasRectangle {
         width: 742px;
         height: 602px;
         border-radius: 49px;
