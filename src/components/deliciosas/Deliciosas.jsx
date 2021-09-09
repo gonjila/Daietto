@@ -1,27 +1,26 @@
-import styled from "styled-components";
-import PicturesComponent from "./PicturesComponent";
-import TextComponent from "./TextComponent";
+import styled from 'styled-components';
+import PicturesComponent from './PicturesComponent.jsx';
+import TextComponent from './TextComponent.jsx';
 
-const Deliciosas = () => {
-    return (
-        <Container>
-            <TextComponent />
-            <PicturesComponent />
-            <div id="rectangle"></div>
-        </Container>
-    );
-};
+const Deliciosas = () => (
+    <Container>
+        <TextComponent />
+        <PicturesComponent />
+        <div id='deliciosasRectangle' />
+    </Container>
+);
 
 export default Deliciosas;
 
 const Container = styled.div`
     height: auto;
+    margin-bottom: 30px;
     position: relative;
 
     display: flex;
     justify-content: space-between;
 
-    #rectangle {
+    #deliciosasRectangle {
         width: 742px;
         height: 602px;
         border-radius: 49px;

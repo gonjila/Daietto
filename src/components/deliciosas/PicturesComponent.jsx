@@ -1,77 +1,76 @@
-import styled from "styled-components";
-import { HiArrowRight } from "react-icons/hi";
+import styled from 'styled-components';
+// eslint-disable-next-line import/extensions
+import { HiArrowRight } from 'react-icons/hi';
 
-const PicturesComponent = () => {
-    return (
-        <Pictures>
-            <div id="loginScreenWrapper">
-                <div id="loginScreen"></div>
+const PicturesComponent = () => (
+    <Pictures>
+        <div id='loginScreenWrapper'>
+            <div id='loginScreen' />
+        </div>
+
+        <div id='information'>
+            <div id='nutritionalTitle'>Nutritional information</div>
+            <div id='details'>
+                <div id='calorias'>
+                    <div className='detailNumber'>243</div>
+                    <div className='detailText'>calorias</div>
+                </div>
+                <div id='grasesWrapper'>
+                    <div className='detailNumber'>2.8g</div>
+                    <div className='detailText'>grases</div>
+                </div>
+                <div id='carbohid'>
+                    <div className='detailNumber'>45.7g</div>
+                    <div className='detailText'>carbohid</div>
+                </div>
+                <div id='proteinas'>
+                    <div className='detailNumber'>9.8g</div>
+                    <div className='detailText'>proteinas</div>
+                </div>
             </div>
+        </div>
 
-            <div id="information">
-                <div id="title">Nutritional information</div>
-                <div id="details">
-                    <div id="calorias">
-                        <div className="detailNumber">243</div>
-                        <div className="detailText">calorias</div>
+        <div id='homeScreenWrapper'>
+            <div id='homeScreen' />
+        </div>
+
+        <div id='weekResult'>
+            <div id='resultTextWrapper'>
+                <div id='resultsTitle'>Results of the week</div>
+
+                <div id='informationWrapper'>
+                    <div>
+                        <div className='resultText'>you have lost</div>
+                        <div className='resultNumber'>-4kg</div>
                     </div>
-                    <div id="grases">
-                        <div className="detailNumber">2.8g</div>
-                        <div className="detailText">grases</div>
-                    </div>
-                    <div id="carbohid">
-                        <div className="detailNumber">45.7g</div>
-                        <div className="detailText">carbohid</div>
-                    </div>
-                    <div id="proteinas">
-                        <div className="detailNumber">9.8g</div>
-                        <div className="detailText">proteinas</div>
+                    <div>
+                        <div className='resultText'>you level up</div>
+                        <div className='resultNumber'>Level 8</div>
                     </div>
                 </div>
             </div>
 
-            <div id="homeScreenWrapper">
-                <div id="homeScreen"></div>
-            </div>
-
-            <div id="weekResult">
-                <div id="resultTextWrapper">
-                    <div id="title">Results of the week</div>
-
-                    <div id="informationWrapper">
-                        <div>
-                            <div className="resultText">you have lost</div>
-                            <div className="resultNumber">-4kg</div>
-                        </div>
-                        <div>
-                            <div className="resultText">you level up</div>
-                            <div className="resultNumber">Level 8</div>
-                        </div>
+            <div id='resultGraphWrapper'>
+                <div id='dots'>
+                    <div className='dot' />
+                    <div className='dot' />
+                </div>
+                <div id='picturesComponentGraph'>
+                    <div id='graphText'>
+                        520 <br /> Kcal
                     </div>
                 </div>
-
-                <div id="resultGraphWrapper">
-                    <div id="dots">
-                        <div className="dot"></div>
-                        <div className="dot"></div>
-                    </div>
-                    <div id="graph">
-                        <div id="graphText">
-                            520 <br /> Kcal
-                        </div>
-                    </div>
-                    <div id="bottomWorlds">
-                        Never give up, <span>know more</span>
-                    </div>
-                </div>
-
-                <div id="resultArrow">
-                    <HiArrowRight />
+                <div id='bottomWorldsInPicturesComponent'>
+                    Never give up, <span>know more</span>
                 </div>
             </div>
-        </Pictures>
-    );
-};
+
+            <div id='resultArrow'>
+                <HiArrowRight />
+            </div>
+        </div>
+    </Pictures>
+);
 
 export default PicturesComponent;
 
@@ -92,15 +91,13 @@ const Pictures = styled.div`
             background: url(images/loginScreen.png) no-repeat center center;
             box-shadow: 0px 0px 99px rgba(42, 90, 123, 0.23);
             position: relative;
-            /* top: 0px;
-            left: 0px; */
             z-index: 5;
         }
 
         &::after {
-            content: "";
-            width: 25.5625rem;
-            height: 25.5625rem;
+            content: '';
+            width: 409px;
+            height: 409px;
             border-radius: 50%;
             background: #d0f0d6;
             position: absolute;
@@ -122,7 +119,7 @@ const Pictures = styled.div`
         left: 250px;
         z-index: 10;
 
-        #title {
+        #nutritionalTitle {
             font-weight: 500;
             font-size: 13px;
             line-height: 24px;
@@ -185,7 +182,7 @@ const Pictures = styled.div`
             text-align: center;
             margin: 0 15px 0 40px;
 
-            #title {
+            #resultsTitle {
                 font-weight: bold;
                 font-size: 20px;
                 line-height: 26px;
@@ -230,7 +227,7 @@ const Pictures = styled.div`
                 }
             }
 
-            #graph {
+            #picturesComponentGraph {
                 width: 81.98px;
                 height: 81.98px;
                 border-radius: 50%;
@@ -252,7 +249,7 @@ const Pictures = styled.div`
                 }
 
                 &:after {
-                    content: "";
+                    content: '';
                     width: 72px;
                     height: 72px;
                     border-radius: 50%;
@@ -261,7 +258,7 @@ const Pictures = styled.div`
                 }
             }
 
-            #bottomWorlds {
+            #bottomWorldsInPicturesComponent {
                 font-weight: normal;
                 font-size: 10px;
                 line-height: 19px;

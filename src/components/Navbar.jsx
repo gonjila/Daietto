@@ -1,33 +1,33 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-const Navbar = () => {
-    return (
-        <Container>
-            <div id="logo">
-                <img alt="logo" src="images/ProjectLogo.svg" />
-                <p>Daietto</p>
-            </div>
+const Navbar = () => (
+    <Container>
+        <div id='logo'>
+            <img alt='logo' src='images/ProjectLogo.svg' />
+            <p>Daietto</p>
+        </div>
 
-            <div id="menu">
-                <p>Nosotros</p>
-                <p>Menu</p>
-                <p>Contacto</p>
-            </div>
+        <div id='menu'>
+            <p>Nosotros</p>
+            <p>Menu</p>
+            <p>Contacto</p>
+        </div>
 
-            <div id="autorisation">
-                <p>Login</p>
-                <p>Register</p>
-            </div>
-        </Container>
-    );
-};
+        <div id='autorisation'>
+            <p>Login</p>
+            <p>Register</p>
+        </div>
+    </Container>
+);
 
 export default Navbar;
 
 const Container = styled.div`
-    height: 4.0981rem;
-    margin: 3.75rem 0 10.3125rem;
-    /* background: red; */
+    width: 1584px;
+    height: 67.5696px;
+    background: transparent;
+    margin: 60px 0 165px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,6 +35,7 @@ const Container = styled.div`
     #logo {
         display: flex;
         align-items: center;
+        cursor: pointer;
 
         img {
             width: 69.84px;
@@ -44,7 +45,7 @@ const Container = styled.div`
             font-weight: bold;
             font-size: 47px;
             color: #23233c;
-            margin-left: 1.375rem;
+            margin-left: 22px;
         }
     }
 
@@ -56,9 +57,10 @@ const Container = styled.div`
             font-weight: 500;
             font-size: 1.5625rem;
             color: #7f8da0;
+            cursor: pointer;
 
             &:not(:last-child) {
-                margin-right: 4.0625rem;
+                margin-right: 65px;
             }
         }
     }
@@ -71,13 +73,14 @@ const Container = styled.div`
             font-weight: bold;
             font-size: 25px;
             color: #23233c;
+            cursor: pointer;
 
             &:last-child {
                 color: #6bc37c;
             }
 
             &:not(:last-child) {
-                margin-right: 3.125rem;
+                margin-right: 50px;
             }
         }
     }

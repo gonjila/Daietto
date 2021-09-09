@@ -1,0 +1,62 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "parser": "babel-eslint",
+    "extends": ["airbnb", "eslint:recommended", "plugin:react/recommended", "plugin:node/recommended", "prettier"],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "settings": {
+        "react": { "version": "detect" }
+    },
+    "plugins": ["react", "prettier", "jsx-a11y"],
+    "rules": {
+        "prettier/prettier": ["warn", { "singleQuote": true, "tabWidth": 4 }],
+        "no-unused-vars": "warn",
+        "no-console": "off",
+        "no-undef": 0,
+        "no-plusplus": 0,
+        "no-process-exit": "off",
+        "no-unused-expressions": 1,
+        "no-param-reassign": ["error", { "props": false }],
+        "camelcase": "warn",
+        "func-names": "off",
+        "object-shorthand": "off",
+        "class-methods-use-this": "off",
+        "arrow-spacing": "off",
+        "arrow-body-style": [0, "as-needed"],
+        "consistent-return": [1, { "treatUndefinedAsUnspecified": true }],
+
+        "react/jsx-no-bind": [1, { "allowArrowFunctions": true, "allowBind": true }],
+        "react/button-has-type": 0,
+        "react/react-in-jsx-scope": "off",
+        "react/state-in-constructor": "off",
+        "react/no-unescaped-entities": "off",
+        "react/no-access-state-in-setstate": 0,
+        "react/jsx-filename-extension": ["off", { "extension": ["jsx", ".jsx"] }],
+        "react/prop-types": [2, { "skipUndeclared": true }],
+        "react/require-default-props": 1,
+        "react/destructuring-assignment": [1, "always"],
+        "react/jsx-props-no-spreading": 0,
+
+        "node/no-unsupported-features/es-syntax": "off",
+        "node/no-unsupported-features/node-builtins": 0,
+        "node/no-missing-import": "warn",
+        "node/no-extraneous-import": 2,
+
+        "import/prefer-default-export": 1,
+        "import/extensions": ["warn", "never", { "jsx": "always", "js": "always" }],
+        "import/no-named-as-default": "off",
+        "import/no-extraneous-dependencies": 1,
+
+        "jsx-a11y/label-has-associated-control": [1, { "assert": "either" }],
+        "jsx-a11y/no-static-element-interactions": 0,
+        "jsx-a11y/click-events-have-key-events": 0
+    }
+}
