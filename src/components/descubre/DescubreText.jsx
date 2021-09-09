@@ -4,11 +4,11 @@ function DescubreText() {
     return (
         <Text>
             <hr />
-            <p id='descubreTitle'>
+            <div id='descubreTitle'>
                 <p>
                     <span>Descubre </span> que tan fácil crear alimentos saludables
                 </p>
-            </p>
+            </div>
             <p id='descubreDescription'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas accumsan odio, cursus
                 laoreet mauris porttitor non. Aliquam eu neque nibh. Aenean non pellentesque justo.

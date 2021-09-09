@@ -45,45 +45,44 @@ const Text = styled.div`
         height: 0px;
         border: 3px solid #23233c;
         border-radius: 5px;
-        margin-bottom: 25px;
+        margin-bottom: 1.236vw;
         background: transparent;
     }
 
     #first {
         font-weight: normal;
-        font-size: 30px;
+        font-size: 1.483vw;
         color: #7f8da0;
-        margin-bottom: 30px;
+        margin-bottom: 1.483vw;
     }
     #second {
         font-weight: bold;
-        font-size: 70px;
-        line-height: 63px;
+        font-size: 3.46vw;
+        line-height: 3.114vw;
         color: #23233c;
-        margin-bottom: 25px;
+        margin-bottom: 1.236vw;
         span {
             color: #6bc37c;
         }
     }
     #third {
         font-weight: normal;
-        font-size: 25px;
-        line-height: 28px;
+        font-size: 1.236vw;
+        line-height: 1.384vw;
         color: #7f8da0;
         margin-bottom: 45px;
     }
 
     #firstDiv {
-        margin-bottom: 165px;
+        margin-bottom: 8.156vw;
         display: flex;
         align-items: center;
 
         button {
-            width: 276px;
-            height: 67px;
-            font-family: 'Google Sans';
+            width: 13.643vw;
+            height: 3.312vw;
             font-weight: bold;
-            font-size: 20px;
+            font-size: 0.989vw;
             text-align: center;
             color: #fff;
             border-radius: 10px;
@@ -91,20 +90,20 @@ const Text = styled.div`
             cursor: pointer;
         }
         img {
-            width: 31.3904px;
-            height: 38.2704px;
+            width: 1.552vw;
+            height: 1.892vw;
             background: transparent;
             cursor: pointer;
 
             &:first-of-type {
-                margin: 0 45px 0 90px;
+                margin: 0 2.224vw 0 4.449vw;
             }
         }
     }
     #secondDiv {
         font-weight: normal;
-        font-size: 25px;
-        line-height: 28px;
+        font-size: 1.236vw;
+        line-height: 1.384vw;
 
         display: flex;
         align-items: center;
@@ -119,7 +118,7 @@ const Text = styled.div`
         .slash {
             color: #7f8da0;
             font-weight: 600;
-            margin: 0 15px;
+            margin: 0 0.741vw;
         }
     }
 `;

@@ -21,9 +21,8 @@ function App() {
 export default App;
 
 const Container = styled.div`
-    width: 120rem;
-    height: 209.1875rem;
-    padding: 0 10.625rem;
+    width: 100vw - 16px;
+    padding: 0 8%;
     background: #f2f6ff;
     overflow: hidden;
     position: relative;
