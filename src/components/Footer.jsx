@@ -59,7 +59,7 @@ const Container = styled.div`
 
 const Text = styled.div`
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
 
     #footerLogo {
@@ -71,6 +71,7 @@ const Text = styled.div`
             height: 4.237vw;
 
             img {
+                width: 100%;
             }
         }
         p {

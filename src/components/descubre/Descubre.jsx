@@ -32,8 +32,8 @@ function Descubre() {
 export default Descubre;
 
 const Container = styled.div`
-    width: 1484px;
-    height: 734px;
+    width: 100%;
+    height: 36.274vw;
     background: transparent;
     position: relative;
 
@@ -53,23 +53,23 @@ const Container = styled.div`
     }
 
     #afterDescubreCicle {
-        width: 301px;
-        height: 301px;
+        width: 14.875vw;
+        height: 14.875vw;
         background: #d0f0d6;
         border-radius: 50%;
         position: absolute;
-        right: -450px;
-        top: 250px;
+        right: -22.239vw;
+        top: 12.355vw;
     }
     #afterDescubreRectangle {
-        width: 742px;
-        height: 602px;
-        border-radius: 49px;
+        width: 36.669vw;
+        height: 29.75vw;
+        border-radius: 2.422vw;
         background: linear-gradient(#f2f6ff 0%, #f2f6ff 74.3%, #fff 100%);
-        box-shadow: 50px 50px 50px rgba(171, 182, 204, 0.2);
+        box-shadow: 2.471vw 2.471vw 2.471vw rgba(171, 182, 204, 0.2);
         position: absolute;
         transform: rotate(45deg);
-        left: -750px;
-        bottom: -300px;
+        left: -37.064vw;
+        bottom: -14.826vw;
     }
 `;

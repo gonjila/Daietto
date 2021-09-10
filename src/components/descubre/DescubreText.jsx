@@ -27,17 +27,16 @@ const Text = styled.div`
     justify-content: center;
 
     hr {
-        width: 62px;
-        height: 0px;
+        width: 3.064vw;
         border: 3px solid #23233c;
         border-radius: 5px;
-        margin-bottom: 25px;
+        margin-bottom: 1.235vw;
         background: transparent;
     }
     #descubreTitle {
         font-weight: bold;
-        font-size: 50px;
-        line-height: 63px;
+        font-size: 2.471vw;
+        line-height: 3.113vw;
         text-align: left;
         color: #23233c;
 
@@ -47,10 +46,10 @@ const Text = styled.div`
     }
     #descubreDescription {
         font-weight: normal;
-        font-size: 25px;
-        line-height: 28px;
+        font-size: 1.235vw;
+        line-height: 1.384vw;
         text-align: left;
         color: #7f8da0;
-        margin-top: 80px;
+        margin-top: 3.954vw;
     }
 `;

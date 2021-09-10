@@ -29,38 +29,38 @@ function Salad({ id, img, text, calories, grases }) {
 export default Salad;
 
 const Container = styled.div`
-    width: 306px;
-    height: 440px;
-    padding: 0 45px;
-    border-radius: 153px 153px 50px 50px;
+    width: 15.122vw;
+    height: 21.745vw;
+    padding: 0 2.224vw;
+    border-radius: 7.561vw 7.561vw 2.471vw 2.471vw;
     background: linear-gradient(#f2f6ff 0%, #f2f6ff 64.59%, #fff 100%);
-    box-shadow: 50px 50px 50px rgba(171, 182, 204, 0.2);
+    box-shadow: 2.471vw 2.471vw 2.471vw rgba(171, 182, 204, 0.2);
     position: relative;
 
     img {
-        width: 383px;
-        height: 383px;
+        width: 18.928vw;
+        height: 18.928vw;
         position: relative;
-        bottom: 140px;
-        left: -83.5px;
+        bottom: 6.919vw;
+        left: -4.127vw;
     }
     .saladInformationWrapper {
         position: relative;
-        bottom: 150px;
+        bottom: 7.413vw;
 
         .saladName {
             font-family: 'Google Sans';
             font-weight: bold;
-            font-size: 35px;
-            line-height: 38px;
+            font-size: 1.73vw;
+            line-height: 1.878vw;
             text-align: left;
             color: #23233c;
-            margin-bottom: 10px;
+            margin-bottom: 0.494vw;
         }
 
         div {
-            width: 143px;
-            height: 50px;
+            width: 7.067vw;
+            height: 2.471vw;
             background: transparent;
 
             display: flex;
@@ -79,26 +79,26 @@ const Container = styled.div`
 
             .caloriesAndGrasesNumber {
                 font-weight: bold;
-                font-size: 26px;
+                font-size: 1.285vw;
                 text-align: left;
                 color: #23233c;
             }
             .caloriesAndGrasesText {
                 font-weight: normal;
-                font-size: 12px;
+                font-size: 0.593vw;
                 text-align: left;
                 color: #7f8da0;
             }
         }
     }
     .SaladArrowWrapper {
-        width: 80px;
-        height: 80px;
+        width: 3.954vw;
+        height: 3.954vw;
         border-radius: 50%;
         background: #23233c;
         position: absolute;
-        bottom: -16px;
-        right: -24px;
+        bottom: -0.791vw;
+        right: -1.186vw;
 
         display: flex;
         align-items: center;
