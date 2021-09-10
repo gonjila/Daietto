@@ -41,8 +41,7 @@ const Text = styled.div`
     margin-right: 10%;
 
     hr {
-        width: 62px;
-        height: 0px;
+        width: 3.064vw;
         border: 3px solid #23233c;
         border-radius: 5px;
         margin-bottom: 1.236vw;

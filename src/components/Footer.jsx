@@ -25,9 +25,9 @@ function Footer() {
                 </div>
                 <div id='footerIconsWrapper'>
                     <div>
-                        <FaInstagram style={{ width: '43px', height: '43px', color: '#3a466d' }} />
-                        <FiTwitter style={{ width: '43px', height: '43px', color: '#3a466d' }} />
-                        <FiFacebook style={{ width: '43px', height: '43px', color: '#3a466d' }} />
+                        <FaInstagram style={{ width: '2.125vw', height: '2.125vw', color: '#3a466d' }} />
+                        <FiTwitter style={{ width: '2.125vw', height: '2.125vw', color: '#3a466d' }} />
+                        <FiFacebook style={{ width: '2.125vw', height: '2.125vw', color: '#3a466d' }} />
                     </div>
                     <p>Tu app de dieta</p>
                 </div>
@@ -41,8 +41,8 @@ export default Footer;
 
 const Container = styled.div`
     width: 100%;
-    height: 343px;
-    margin-top: 360px;
+    height: 16.951vw;
+    margin-top: 17.791vw;
 
     display: flex;
     flex-direction: column;
@@ -50,8 +50,8 @@ const Container = styled.div`
 
     p {
         font-weight: normal;
-        font-size: 27px;
-        line-height: 54px;
+        font-size: 1.334vw;
+        line-height: 2.669vw;
         text-align: left;
         color: #3a466d;
     }
@@ -67,26 +67,26 @@ const Text = styled.div`
         align-items: center;
 
         div {
-            width: 91.32px;
-            height: 85.73px;
+            width: 4.513vw;
+            height: 4.237vw;
 
             img {
             }
         }
         p {
             font-weight: bold;
-            font-size: 61px;
+            font-size: 3.015vw;
             text-align: left;
             color: #23233c;
-            margin-left: 25px;
+            margin-left: 1.235vw;
         }
     }
 
     #footerList1 {
         p:nth-of-type(1) {
             font-weight: bold;
-            font-size: 34px;
-            line-height: 48px;
+            font-size: 1.68vw;
+            line-height: 2.372vw;
             text-align: left;
             color: #6cc57c;
         }
@@ -99,19 +99,19 @@ const Text = styled.div`
         }
         p {
             font-weight: bold;
-            font-size: 32px;
-            line-height: 33px;
+            font-size: 1.581vw;
+            line-height: 1.631vw;
             text-align: left;
             color: #23233c;
-            margin-top: 75px;
+            margin-top: 3.706vw;
         }
     }
 `;
 
 const License = styled.div`
     font-weight: normal;
-    font-size: 30px;
-    line-height: 60px;
+    font-size: 1.483vw;
+    line-height: 2.965vw;
     text-align: left;
     color: #3a466d;
 `;

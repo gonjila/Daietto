@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 import PicturesComponent from './PicturesComponent.jsx';
-import TextComponent from './TextComponent.jsx';
+import DeliciosasText from './DeliciosasText.jsx';
 
 const Deliciosas = () => (
     <Container>
-        <TextComponent />
+        <DeliciosasText />
         <PicturesComponent />
         <div id='deliciosasRectangle' />
     </Container>

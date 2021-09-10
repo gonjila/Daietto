@@ -46,8 +46,8 @@ function Conoceimages() {
 export default Conoceimages;
 
 const Container = styled.div`
-    width: 44.3125rem;
-    height: 42.0625rem;
+    width: 35.038vw;
+    height: 33.259vw;
     background: transparent;
     position: relative;
 
@@ -56,34 +56,35 @@ const Container = styled.div`
     align-items: center;
 
     #ConoceMainImages {
-        width: 290px;
-        height: 628px;
+        width: 14.332vw;
+        height: 31.035vw;
         background: url(images/detalles.png) center center;
-        filter: drop-shadow(0px 3px 99px rgba(42, 90, 123, 0.27));
-        transform: translateX(45px);
+        background-size: 200%;
+        filter: drop-shadow(0px 0.148vw 4.893vw rgba(42, 90, 123, 0.27));
+        transform: translateX(2.224vw);
     }
 
     #nutritionalInformation2 {
-        width: 544px;
-        height: 174px;
-        border-radius: 10px;
+        width: 26.884vw;
+        height: 8.599vw;
+        border-radius: 0.494vw;
         background: #fff;
         text-align: center;
-        box-shadow: 0px 10px 20px rgba(25, 22, 109, 0.07);
-        transform: translateY(-50px);
+        box-shadow: 0px 0.494vw 0.988vw rgba(25, 22, 109, 0.07);
+        transform: translateY(-2.471vw);
         position: absolute;
         left: 0;
 
         .InformationTitle {
             font-weight: 500;
-            font-size: 21px;
-            line-height: 39px;
+            font-size: 1.038vw;
+            line-height: 1.927vw;
             color: #23233c;
-            margin: 20px auto 30px;
+            margin: 0.988vw auto 1.483vw;
         }
         .informations {
-            width: 438px;
-            height: 57px;
+            width: 21.646vw;
+            height: 2.817vw;
             background: transparent;
             margin: auto;
 
@@ -97,7 +98,7 @@ const Container = styled.div`
 
                 .number {
                     font-weight: bold;
-                    font-size: 31px;
+                    font-size: 1.532vw;
                     text-align: left;
                     color: #23233c;
                 }
@@ -106,7 +107,7 @@ const Container = styled.div`
                 }
                 .text {
                     font-weight: normal;
-                    font-size: 11px;
+                    font-size: 0.544vw;
                     text-align: left;
                     color: #9e9e9e;
                 }
@@ -117,14 +118,14 @@ const Container = styled.div`
     #circleImageWrapper {
         width: 100%;
         position: absolute;
-        bottom: -30px;
+        bottom: -1.483vw;
 
         display: flex;
         justify-content: space-around;
 
         div {
-            width: 120px;
-            height: 120px;
+            width: 5.93vw;
+            height: 5.93vw;
             filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.04));
 
             img {
