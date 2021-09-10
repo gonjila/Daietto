@@ -23,10 +23,10 @@ const Navbar = () => (
 export default Navbar;
 
 const Container = styled.div`
-    width: 1584px;
-    height: 67.5696px;
+    width: 100%;
+    height: 3.34vw;
     background: transparent;
-    margin: 60px 0 165px;
+    margin: 2.966vw 0 8.156vw;
 
     display: flex;
     justify-content: space-between;
@@ -38,14 +38,14 @@ const Container = styled.div`
         cursor: pointer;
 
         img {
-            width: 69.84px;
-            height: 65.57px;
+            width: 3.452vw;
+            height: 3.241vw;
         }
         p {
             font-weight: bold;
-            font-size: 47px;
+            font-size: 2.323vw;
             color: #23233c;
-            margin-left: 22px;
+            margin-left: 1.087vw;
         }
     }
 
@@ -55,12 +55,12 @@ const Container = styled.div`
 
         p {
             font-weight: 500;
-            font-size: 1.5625rem;
+            font-size: 1.236vw;
             color: #7f8da0;
             cursor: pointer;
 
             &:not(:last-child) {
-                margin-right: 65px;
+                margin-right: 3.213vw;
             }
         }
     }
@@ -71,7 +71,7 @@ const Container = styled.div`
 
         p {
             font-weight: bold;
-            font-size: 25px;
+            font-size: 1.236vw;
             color: #23233c;
             cursor: pointer;
 
@@ -80,7 +80,7 @@ const Container = styled.div`
             }
 
             &:not(:last-child) {
-                margin-right: 50px;
+                margin-right: 2.472vw;
             }
         }
     }
